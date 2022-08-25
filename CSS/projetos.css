@@ -54,6 +54,10 @@
     height: 7.5vw;
 }
 
+.display__imagem--borda {
+    border: solid #000000 1px;
+}
+
 .display__git {
     text-decoration: none;
     color: #bfbfbf;
