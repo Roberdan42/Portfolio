@@ -1,0 +1,93 @@
+.projetos {
+    border-top: dashed black 2px;
+    border-bottom: dashed black 2px;
+    background: var(--fundo-azul);
+
+    padding: 0.5em 0;
+}
+
+.projetos__alura, .projetos__proprios {
+    text-align: center;
+}
+
+.alura__titulo, .proprios__titulo {
+    font-size: 1.25em;
+    padding: 0.5em 0;
+}
+
+.alura__display, .proprios__display {
+    padding: 0 20vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.display__projetos {
+    padding: 0 1em;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mostrar-mais--alura {
+    display: none;
+    padding: 1em 0 0 0;
+}
+
+.mostrar-mais--proprios {
+    display: none;
+    padding: 1em 0 0 0;
+}
+
+.display__texto {
+    padding: 0.5em 0;
+}
+
+.display__imagem {
+    width: 7.5vw;
+    height: 7.5vw;
+}
+
+.display__imagem--finalizado {
+    width: 15vw;
+    height: 7.5vw;
+}
+
+.display__imagem--borda {
+    border: solid #000000 1px;
+}
+
+.display__git {
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: 0.8em;
+    padding: 0.5em 0;
+}
+
+.display__git:hover {
+    text-decoration: underline;
+}
+
+.projetos__botao--mostrar-mais--alura {
+    padding: 0.5em 0;
+    display: inline-block;
+}
+
+.projetos__botao--mostrar-mais--proprios {
+    padding: 0.5em 0;
+    display: inline-block;
+}
+
+.aparece {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos__botao--mostrar-mais--alura:hover {
+    text-decoration-line: underline;
+}
+
+.projetos__botao--mostrar-mais--proprios:hover {
+    text-decoration-line: underline;
+}

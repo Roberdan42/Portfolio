@@ -1,0 +1,91 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--fundo-preto);
+
+    height: 20vh;
+}
+
+.container__titulo {
+    font-size: 2em;
+    color: var(--fonte-branca);
+    margin: 0 2em;
+}
+
+.container__categorias {
+    display: flex;
+    color: var(--fonte-branca);
+    padding-right: 25px;
+}
+
+.container__link {
+    text-decoration: none;
+    color: var(--fonte-branca);
+
+    font-size: 2em;
+    margin: 0 0.5em
+}
+
+.container__link:hover {
+    text-decoration: underline;
+}
+
+.introducao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--fundo-azul);
+    
+    height: 60vh;
+}
+
+.introducao__esquerda {
+    width: 30vw;
+    height: 40vh;
+    padding: 2.5em 5em;
+}
+
+.esquerda__nome {
+    font-size: 2.5em;
+    padding: 0.25em;
+}
+
+.esquerda__texto {
+    font-size: 1.25em;
+    padding: 0.25em;
+}
+
+.introducao__direita {
+    display: flex;
+    width:50vw;
+    height: 40vh;
+}
+
+.direita__foto {
+    width: 17vw;
+    height: 17vw;
+}
+
+.direita__habilidades {
+    padding: 2em;
+}
+
+.habilidades__titulo {
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+
+.habilidades__lista {
+    padding: 0.5em;
+}
+
+.habilidades__itens {
+    padding: 0.25em;
+}

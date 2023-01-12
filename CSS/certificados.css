@@ -1,0 +1,42 @@
+.certificados {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+
+    background: var(--fundo-azul);
+
+    padding: 0.5em 0;
+}
+
+.certificados__titulo {
+    text-align: center;
+    grid-column: span 2;
+
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+.formacoes {
+    padding-left: 22.5vw;
+}
+
+.formacoes__titulo, .cursos__titulo {
+    font-size: 1.25em;
+}
+
+.formacoes__lista, .cursos__lista {
+    display: block
+}
+
+.formacoes__item, .cursos__item {
+    padding: 0.5em 0;
+}
+
+.formacoes__link, .cursos__link {
+    text-decoration: none;
+    color: var(--fonte-branca);
+}
+
+.cursos {
+    display: block
+}
